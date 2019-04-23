@@ -41,7 +41,7 @@ class GUI:
 	
 	def get_settings(self):
 		config = ConfigParser()
-		config.read(os.path.abspath("C:\\Users\\Eric\\Desktop\\projects\\wtm\\config.ini"))
+		config.read(os.path.abspath("C:\\Users\\Eric\\Documents\\Github\\wtm\\config.ini"))
 		self.cpu_minutes = config.getint('main', 'work_time')
 		self.exer_minutes = config.getint('main', 'break_time')
 		self.low_rand = config.getint('main', 'low_random')
@@ -93,7 +93,7 @@ class GUI:
 root = Tk()
 root.config()
 r = GUI(root)
-root.iconbitmap(os.path.abspath("C:\\Users\\Eric\\Desktop\\projects\\wtm\\logo.ico"))
+root.iconbitmap(os.path.abspath("C:\\Users\\Eric\\Documents\\Github\\wtm\\logo.ico"))
 root.mainloop()
 
 

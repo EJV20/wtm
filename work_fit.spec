@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['work_fit.py'],
-             pathex=['C:\\Users\\Eric\\Desktop\\projects\\wtm'],
+             pathex=['C:\\Users\\Eric\\Documents\\GitHub\\wtm'],
              binaries=[],
              datas=[],
              hiddenimports=[],
